@@ -1,3 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Title
+
+// navbar
+
+.navBackground{
+    background-color:#fae7dc;
+}
+
 h1, h2{
-    color: burlywood;
+    color: #870939c8;
+}
+
+.heading{
+    background-color:#fae7dc;
+    padding: 80px 100px 0px;
+}
+
+
+.strtImage{
+    height: 320px;
+    width: 620px;
+    // margin-right:10px;
+}
+
+
+
+// Product 
+
+#product{
+    padding: 80px 80px 0px;
+}
+
+.productImage{
+    height: 520px;
+    width: 320px;
+    // margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+
+// Promotion
+
+#promotion{
+    padding: 80px 80px 0px;
+}
+.promo{
+    height: 400px;
+    // padding:  20px 10px;
+    h2,p{
+        color: #fff;
+    }
+}
+.promo.red{
+    background-color: firebrick;
+    padding: 20px 0px 0px 60px;   
+    align-items: center;
+}
+.promo.green{
+    background-color: darkgreen;
+    padding: 60px 60px;   
+}
+.promoImage{
+    height: 320px;
+    width: 590px;
+    // margin: 20px 10px 10px 70px;
+    
+}
+
+
+// App
+
+#app{
+    padding: 80px 80px 0px;
+}
+.app{
+    background-color:#fae7dc;
+}
+.app.connect{
+    padding: 60px 60px;
+}
+.appImage{
+    height: 320px;
+    width: 680px;
+    // margin-left: 60px;
 }

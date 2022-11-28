@@ -1,3 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBackground {
+  background-color: #fae7dc;
+}
+
 h1, h2 {
-  color: burlywood;
+  color: rgba(135, 9, 57, 0.7843137255);
+}
+
+.heading {
+  background-color: #fae7dc;
+  padding: 80px 100px 0px;
+}
+
+.strtImage {
+  height: 320px;
+  width: 620px;
+}
+
+#product {
+  padding: 80px 80px 0px;
+}
+
+.productImage {
+  height: 520px;
+  width: 320px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+#promotion {
+  padding: 80px 80px 0px;
+}
+
+.promo {
+  height: 400px;
+}
+.promo h2, .promo p {
+  color: #fff;
+}
+
+.promo.red {
+  background-color: firebrick;
+  padding: 20px 0px 0px 60px;
+  align-items: center;
+}
+
+.promo.green {
+  background-color: darkgreen;
+  padding: 60px 60px;
+}
+
+.promoImage {
+  height: 320px;
+  width: 590px;
+}
+
+#app {
+  padding: 80px 80px 0px;
+}
+
+.app {
+  background-color: #fae7dc;
+}
+
+.app.connect {
+  padding: 60px 60px;
+}
+
+.appImage {
+  height: 320px;
+  width: 680px;
 }/*# sourceMappingURL=style.css.map */
