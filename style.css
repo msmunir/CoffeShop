@@ -92,6 +92,15 @@ h1, h2 {
   background-color: #007b5e;
 }
 
+#productItem {
+  margin: 20px 20px;
+}
+
+.cardStyle {
+  margin: 20px auto;
+  width: 18rem;
+}
+
 section {
   padding: 60px 0;
 }
