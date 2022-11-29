@@ -19,9 +19,12 @@ body{
     font-weight: 400;
     margin-left: 40px;
 }
+.navbar-brand:hover{
+    color:#870939c8;
+}
 
 .navTextColor{
-    color:  #007b5e;;
+    color:  #007b5e;
 }
 
 h1, h2{
@@ -107,6 +110,7 @@ h1, h2{
 
 .btn{
     margin: 20px 20px 20px 0px;
+    background-color: #007b5e;
 }
 
 
