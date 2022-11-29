@@ -53,7 +53,8 @@ h1, h2 {
 }
 
 .promo {
-  height: 400px;
+  min-height: 420px;
+  margin-bottom: 40px;
 }
 .promo p {
   color: #000;
@@ -69,8 +70,9 @@ h1, h2 {
 }
 
 .promoImage {
-  height: 320px;
+  height: 400px;
   width: 590px;
+  max-width: 100%;
 }
 
 #app {
@@ -83,7 +85,7 @@ h1, h2 {
 }
 
 .appImage {
-  height: 320px;
+  height: 420px;
   width: 680px;
 }
 
@@ -114,7 +116,7 @@ h1, h2 {
 }
 
 .companyText {
-  padding: 0px 80px;
+  padding-bottom: 40px;
 }
 
 .companyImage {
