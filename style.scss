@@ -53,7 +53,8 @@ h1, h2{
 // Product 
 
 #product{
-    padding: 80px 80px 0px;
+    // padding: 80px 80px 0px;
+    margin: 0px 60px;
 }
 
 .productImage{
@@ -130,35 +131,43 @@ h1, h2{
     width: 18rem;
 }
 
-
-
 // ######################### About Us Page ##############################
 
-// ######################### Contact Page ##############################
+
 
 // ######################### Review Page ##############################
 
+#reviewPage{
+    margin: 60px 60px;
+}
+
+.review{
+    padding: 60px 80px;
+}
+
+// ######################### Company Page ##############################
+
+#companyPage{
+    margin: 0px 60px;
+}
+
+.companyText{
+    padding: 0px 80px;
+}
+.companyImage {
+    height: 420px;
+    width: 620px;
+    // margin-left: 20px;
+}
+
+.companySection{
+    margin-bottom: 80px;
+}
+
+// ####################################### Contact Page ##############################
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Footer
+// #################################### Footer #######################################
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
@@ -174,7 +183,7 @@ section .section-title {
 #footer {
     background: #007b5e !important;
 }
-#footer h5{
+#footer h3{
 	padding-left: 10px;
     // border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
@@ -227,7 +236,7 @@ section .section-title {
 }
 
 @media (max-width:767px){
-	#footer h5 {
+	#footer h3 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
