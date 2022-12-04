@@ -23,48 +23,54 @@
     
     <main class="main">
 
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navBackground ">
-          <div class="container-fluid">
-            <a class="navbar-brand navTextColor" href="index.html"><img class="nav-image" src="Images/logo-Coffee house.png" alt="logo"></a>
-            <button class="navbar-toggler navHamIcon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa-solid fa-bars fa-xl"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link navTextColor" aria-current="page" href="index.html">Hem</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navTextColor" href="product.html">Meny</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navTextColor" href="company.html">Om oss</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navTextColor" href="review.html">Recension</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navTextColor" href="contact.html">Kontakt</a>
-                </li>
-              </ul>
+      <header class="header">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navBackground ">
+            <div class="container-fluid">
+              <a class="navbar-brand navTextColor" href="index.html"><img class="nav-image" src="Images/logo-Coffee house.png" alt="logo"></a>
+              <button class="navbar-toggler navHamIcon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fa-xl"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link  navTextColor" aria-current="page" href="index.html">Hem</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navTextColor" href="product.html">Meny</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navTextColor" href="company.html">Om oss</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navTextColor" href="review.html">Recension</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navTextColor" href="contact.html">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-      </nav>
+        </nav>
+      </header>
 
       <section id="title">
             <!-- Heading -->
-          <div class="row heading">
-              <div class=" col-lg-6 col-md-6">
-                  <h1>Coffee that fuels your dreams</h1>
-                  <p class="startPageText">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe error aperiam soluta eos, alias id officia neque magni modi voluptates iure excepturi sint autem aut quam. Doloremque blanditiis odio ad.
-                  </p>
-                  <button type="button" class="btn btn-success btnstartPage ">Read more</button>
-              </div>
-              <div class="catch two col-lg-6 col-md-6">
-                  <img class="strtImage" src="Images/coffepic1.jpg" alt="">
-              </div>
+          <div class="container">
+            <div class="row heading">
+                <div class="heading text col-lg-6 col-md-6">
+                    <h1>Coffee that fuels your dreams</h1>
+                    <p class="startPageText">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe error aperiam soluta eos, alias id officia neque magni modi voluptates iure excepturi sint autem aut quam. Doloremque blanditiis odio ad.
+                    </p>
+                    <button type="button" class="btn btn-outline-secondary btnstartPage">
+                      <a class="readMore" href="company.html">Läs Mer</a></button>
+                </div>
+                <div class="heading image col-lg-6 col-md-6">
+                    <img class="strtImage" src="Images/coffepic1.jpg" alt="">
+                </div>
+            </div>
           </div>
           
       </section>
@@ -72,14 +78,14 @@
       <!-- product image -->
       
       <section id="product">
-          
+          <div class="container">
             <div class="row">
                 <div class="product one col-lg-3 col-md-6">
-                    <h2>Christmas Special</h2>
+                    <h2 class="chSpecial">Christmas Special</h2>
                     <p class="startPageText">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat mollitia maiores beatae eius alias at.
                     </p>
-                    <button type="button" class="btn btn-success btnstartPage">Read more</button>
+                    <button type="button" class="btn btn-outline-secondary btnstartPage"><a class="readMore" href="product.html">Läs Mer</a></button>
               </div>
               <div class="product two col-lg-3 col-md-6">
                   <img class="productImage" src="Images/E.house1.jpg" alt="">
@@ -91,40 +97,43 @@
                   <img class="productImage" src="Images/E.house3.jpg" alt="">
               </div>
           </div>
-
+          </div>
       </section>
 
       <section id="promotion">
 
           <!-- promotion-->
-
-          <div class="row">
-              <div class="promo red col-lg-6">
-                  <img class="promoImage" src="Images/spotify.jpg" alt="">
-              </div>
-              <div class="promo green col-lg-6">
-                  <h2>Make your every coffe count</h2>
-                  <p class="startPageText">CoffeHouse Rewards + Spotify have come together! Link your account wih our app.
-                      Spend your money to enjoy your coffe and collect points to get promo code for Spotify.
-                  </p>
-                  <button type="button" class="btn btn-success btnstartPage">Link now</button>
+          <div class="container">
+            <div class="row">
+                <div class="promo red col-lg-6">
+                    <img class="promoImage" src="Images/spotify.jpg" alt="">
                 </div>
-              </div>
+                <div class="promo green col-lg-6">
+                    <h2>Make your every coffe count</h2>
+                    <p class="startPageText">CoffeHouse Rewards + Spotify have come together! Link your account wih our app.
+                        Spend your money to enjoy your coffe and collect points to get promo code for Spotify.
+                    </p>
+                    <button type="button" class="btn btn-outline-secondary  btnstartPage"><a class="readMore" href="https://open.spotify.com/" target="_blank"> Länka nu</a></button>
+                  </div>
+                </div>
+          </div>
               
             </section>
             
             <!-- App -->
             
-            <section id="app">
-              <div class="row">
-                <div class="app connect col-lg-6">
-                  <h2>Let's Connect</h2>
-            <p class="startPageText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione cumque dolores temporibus possimus. Amet, assumenda porro distinctio incidunt nulla eos?</p>
-            <button type="button" class="btn btn-success btnstartPage"><i class="fa-brands fa-apple"></i> Download</button>
-            <button type="button" class="btn btn-success btnstartPage"><i class="fa-brands fa-google-play"></i> Download</button>
-          </div>
-          <div class="app donut col-lg-6">
-            <img class="appImage" src="Images/coffeMobile.webp" alt="">
+      <section id="app">
+        <div class="container">
+          <div class="row">
+                  <div class="app connect col-lg-6">
+                    <h2>Let's Connect</h2>
+                    <p class="startPageText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione cumque dolores temporibus possimus. Amet, assumenda porro distinctio incidunt nulla eos?</p>
+                    <button type="button" class="btn btn-outline-secondary btnstartPage"><i class="fa-brands fa-apple"></i><a class="readMore" href="https://www.apple.com/app-store/" target="_blank"> Download</a></button>
+                    <button type="button" class="btn btn-outline-secondary btnstartPage"><i class="fa-brands fa-google-play"></i><a class="readMore" href="https://play.google.com/store/games?gl=SE" target="_blank"> Download</a></button>
+                  </div>
+                  <div class="app donut col-lg-6">
+                    <img class="appImage" src="Images/coffeMobile.webp" alt="">
+                  </div>
           </div>
         </div>
       </section>
@@ -159,11 +168,11 @@
               <div class="footer-widget">
                 <h3>Coffe House</h3>
                 <ul>
-                  <li class="footer-widget-links"><a href="#">Om oss</a></li>
-                  <li class="footer-widget-links"><a href="#">Vårt kaffe</a></li>
-                  <li class="footer-widget-links"><a href="#">Jobb</a></li>
-                  <li class="footer-widget-links"><a href="#">Hjälp</a></li>
-                  <li class="footer-widget-links"><a href="#">Kotakt</a></li>
+                  <li class="footer-widget-links"><a href="company.html">Om oss</a></li>
+                  <li class="footer-widget-links"><a href="product.html">Vårt kaffe</a></li>
+                  <li class="footer-widget-links"><a href="company.html">Jobb</a></li>
+                  <li class="footer-widget-links"><a href="contact.html">Hjälp</a></li>
+                  <li class="footer-widget-links"><a href="contact.html">Kotakt</a></li>
                 </ul>
               </div>
             </div>
@@ -219,17 +228,3 @@
 
 </body>
 </html>
-
-
-<!-- <span class="navbar-toggler-icon nav-hamIcon"></span> -->
-
-   <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle navTextColor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Om oss
-                </a>
-              </li>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item navTextColor" href="company.html">Företag</a></li>
-                <li><a class="dropdown-item navTextColor" href="review.html">Recension</a></li>
-                <li><a class="dropdown-item navTextColor" href="contact.html">Kontakt</a></li>
-              </ul> -->

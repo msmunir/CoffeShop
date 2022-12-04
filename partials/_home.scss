@@ -1,0 +1,101 @@
+
+// ######################### Start Page ##############################
+
+// Title
+#title{
+    margin-bottom: 5rem;
+}
+
+h1{
+    margin: 0 0 0 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3rem;
+    color: $secondary-color;
+}
+.startPageText{
+    padding: 1.5rem 3rem .5rem 3rem;
+}
+
+h2{
+    margin: 0 0 0 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;  
+    color: $secondary-color;   
+}
+.product .chSpecial:hover{
+    color: $hover-color2;
+}
+
+.heading{
+    .text{
+        margin-bottom: 80px;
+    }
+    .strtImage{
+        height: 400px;
+        width: 590px;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+}
+
+.readMore{
+    text-decoration: none;
+    color:$third-color;
+}
+.readMore:hover{
+    color: $hover-color3;
+}
+
+
+// Product 
+#product{
+    margin-bottom: 120px;
+}
+.productImage{
+    height: 500px;
+    width: 320px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+// Promotion
+#promotion{
+   margin-bottom: 5rem; 
+}
+.promoImage{
+    height: 400px;
+    width: 590px;
+    max-width: 100%; 
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+// App
+#app{
+    margin-bottom: 120px;
+}
+.app.connect{
+    margin-bottom: 80px;
+}
+.appImage{
+    height: 400px;
+    width: 590px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+// Button
+.btnstartPage{
+    margin: .5rem 0 0 3rem;
+    border-color: $secondary-color;
+    color: $third-color;
+    text-transform: uppercase;
+}
+.btnProduct{
+    margin: 0;
+}
+.btnstartPage:hover{
+    // background-color: #b61560;
+    background-color: $secondary-color;
+}

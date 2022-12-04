@@ -25,37 +25,41 @@
 </head>
 <body>
 
- <!-- navbar -->
 
- <nav class="navbar navbar-expand-lg navBackground ">
-  <div class="container-fluid">
-    <a class="navbar-brand navTextColor" href="index.html"><img class="nav-image" src="Images/logo-Coffee house.png" alt="logo"></a>
-    <button class="navbar-toggler navHamIcon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa-solid fa-bars fa-xl"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link navTextColor" aria-current="page" href="index.html">Hem</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navTextColor" href="product.html">Meny</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navTextColor" href="company.html">Om oss</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navTextColor" href="review.html">Recension</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navTextColor" href="contact.html">Kontakt</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  <header class="header">
     
-      <!-- Navbar Finish -->
+        <!-- navbar -->
+      
+        <nav class="navbar navbar-expand-lg navBackground ">
+        <div class="container-fluid">
+          <a class="navbar-brand navTextColor" href="index.html"><img class="nav-image" src="Images/logo-Coffee house.png" alt="logo"></a>
+          <button class="navbar-toggler navHamIcon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navTextColor" aria-current="page" href="index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navTextColor" href="product.html">Meny</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navTextColor" href="company.html">Om oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navTextColor" href="review.html">Recension</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navTextColor" href="contact.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          
+            <!-- Navbar Finish -->
+  </header>
 
       
       <!-- Contact Begins -->
@@ -63,11 +67,21 @@
         <div class="container">
 
           <div class="row">
+            <div class="col-lg-12">
+              <div class="contact catchPhrase">
+                <p>
+                  Relax. Refresh. Rejuvinate.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
             <div class="col-lg-6 contact image">
               <img class="companyImage" src="Images/ComCoffeHouse1.jpg" alt="Company Image">
             </div>
             <div class="col-lg-6 contact address ">
-              <h3>The Coffe House</h3>
+              <h2>The Coffe House</h2>
               <p>
                   <br>
                   Årstaängsvägen 33
@@ -77,23 +91,30 @@
                   Tel: 019-10 00 00
               </p>
             </div>
-            <div class="col-lg-12">
+            
+            <div class="row">
+              <div class="col-lg-6 contact formMtext">
+                <h2 class="formMh2">Kontakt</h2>
+                <p class="formMp">Ta kontakt med oss om du har frågor eller något annat du undrar.</p>
+              </div>
 
+                <div class="col-lg-6 contact formMessage">
+
+                  <form action="#">
+                    <input class="form" type="text" placeholder="Name">
+                    <input class="form" type="email" placeholder="E-postaddress" required>
+                    <!-- <input class="form" type="text" placeholder="Message"> -->
+                    <textarea class="form" name="formText" id="formText" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="button" class="form btn btn-outline-secondary btnstartPage btnForm">Skicka</button>
+                  </form>
+                </div>
             </div>
 
 
           </div>
         </div>
       </section>
-
-
       <!-- Contact Finish  -->
-
-
-
-
-
-
 
     <!-- footer -->
     
@@ -123,11 +144,11 @@
               <div class="footer-widget">
                 <h3>Coffe House</h3>
                 <ul>
-                  <li class="footer-widget-links"><a href="#">Om oss</a></li>
-                  <li class="footer-widget-links"><a href="#">Vårt kaffe</a></li>
-                  <li class="footer-widget-links"><a href="#">Jobb</a></li>
-                  <li class="footer-widget-links"><a href="#">Hjälp</a></li>
-                  <li class="footer-widget-links"><a href="#">Kotakt</a></li>
+                  <li class="footer-widget-links"><a href="company.html">Om oss</a></li>
+                  <li class="footer-widget-links"><a href="product.html">Vårt kaffe</a></li>
+                  <li class="footer-widget-links"><a href="company.html">Jobb</a></li>
+                  <li class="footer-widget-links"><a href="contact.html">Hjälp</a></li>
+                  <li class="footer-widget-links"><a href="contact.html">Kotakt</a></li>
                 </ul>
               </div>
             </div>

@@ -1,0 +1,76 @@
+// #################################### Footer #######################################
+.footer {
+    background-color: $primary-color;
+    // width: 80%;
+    padding-top: 4rem;
+    margin-top: auto;
+}
+.footer-logo{
+    margin-bottom: 1rem;
+}
+.imgLogo{
+    width: 5rem;
+    max-width: 100%;
+    border-radius: 3rem;
+    margin-left: 2rem;
+}
+.footer-social{
+    margin: 2rem 0;
+}
+.footer-social-icon {
+    margin: 0 1rem 0 0;
+    color: $secondary-color;
+}
+.footer-social-icon:hover{
+    color: $hover-color;
+}
+.footer-widget{
+    margin-bottom: 2rem;
+    h3{
+        color: $secondary-color;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+    }
+    ul{
+        padding-left: 0;
+    }
+    li{
+        font-size: 1rem;
+        line-height: 2rem;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: $hover-color;
+    }
+    .container{
+        color: $hover-color;
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-left: 0;
+    }
+    .emailSpace{
+        display: block;
+        width: 320px;
+        max-width: 100%;
+        padding: 5px 10px;
+    }
+    .btnSubmit{
+        color: $hover-color;
+        background-color: $primary-color;
+        border-color: $secondary-color;
+        margin-top: .8rem;
+    }
+    .btnSubmit:hover{
+        color: $secondary-color;
+    }
+    a:hover{
+        color: $secondary-color;
+    }
+    .copyright{
+        color: $hover-color;
+        font-size: .5rem;
+    }
+}

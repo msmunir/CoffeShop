@@ -1,0 +1,28 @@
+
+// navbar
+
+.navbar{
+    margin-bottom: 5rem;
+}
+.nav-item{
+    margin: 0 26px;
+    padding: 5px 10px;
+}
+.nav-image{
+    width: 5rem;
+    max-width: 100%;
+    border-radius: 3rem;
+    margin-left: 1rem;
+}
+.navBackground {
+    background-color:$primary-color;
+}
+.navHamIcon{
+    color: $secondary-color;
+}
+.navTextColor{
+    color:  $secondary-color;
+}
+.navTextColor:hover{
+    color: $hover-color;
+}

@@ -1,26 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  font-family: Montserrat, sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.6;
-  color: #333;
-  background-color: white;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 .navbar {
   margin-bottom: 5rem;
+}
+
+.nav-item {
+  margin: 0 26px;
+  padding: 5px 10px;
 }
 
 .nav-image {
@@ -44,131 +28,6 @@ body {
 
 .navTextColor:hover {
   color: #b7b7b7;
-}
-
-h1 {
-  margin: 0 0 0 1em;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 3rem;
-  color: #b69f6d;
-}
-
-.startPageText {
-  padding: 3rem 3rem 0.5rem 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #333333;
-}
-
-.heading {
-  padding: 40px 40px;
-}
-
-.strtImage {
-  height: 320px;
-  width: 620px;
-}
-
-#product {
-  margin: 0px 60px;
-}
-
-.productImage {
-  height: 520px;
-  width: 320px;
-  padding: 10px 10px;
-  border-radius: 20px;
-}
-
-#promotion {
-  padding: 80px 80px 0px;
-}
-
-.promo {
-  min-height: 420px;
-  margin-bottom: 40px;
-}
-
-.promoImage {
-  height: 400px;
-  width: 590px;
-  max-width: 100%;
-}
-
-#app {
-  padding: 80px 80px 0px;
-  margin-bottom: 120px;
-}
-
-.app.connect {
-  padding: 0px 40px 40px;
-}
-
-.appImage {
-  height: 420px;
-  width: 680px;
-}
-
-.btnstartPage {
-  margin: 0.5rem 0 0 3rem;
-  background-color: #007b5e;
-}
-
-#productItem {
-  margin: 20px 20px;
-}
-
-.cardStyle {
-  margin: 20px auto;
-  width: 18rem;
-}
-
-.reviewContent {
-  margin: 20px 40px 60px;
-}
-
-.reviewPage {
-  margin-bottom: 100px;
-}
-
-#companyPage {
-  margin: 0px 60px;
-}
-
-.companyText {
-  padding-bottom: 40px;
-}
-
-.companyImage {
-  height: 420px;
-  width: 620px;
-}
-
-.companySection {
-  margin-bottom: 80px;
-}
-
-.contact {
-  margin-bottom: 5rem;
-}
-.contact .address {
-  line-height: 2;
-  margin-left: 30px;
-}
-.contact h3 {
-  font-size: 60px;
-}
-.contact p {
-  font-size: 26px;
-}
-.contact .companyImage {
-  max-width: 100%;
-  height: 500px;
 }
 
 .footer {
@@ -227,11 +86,13 @@ h2 {
   color: #b7b7b7;
   font-size: 1rem;
   line-height: 2rem;
+  padding-left: 0;
 }
 .footer-widget .emailSpace {
   display: block;
   width: 320px;
   max-width: 100%;
+  padding: 5px 10px;
 }
 .footer-widget .btnSubmit {
   color: #b7b7b7;
@@ -239,7 +100,237 @@ h2 {
   border-color: #b69f6d;
   margin-top: 0.8rem;
 }
+.footer-widget .btnSubmit:hover {
+  color: #b69f6d;
+}
+.footer-widget a:hover {
+  color: #b69f6d;
+}
 .footer-widget .copyright {
   color: #b7b7b7;
   font-size: 0.5rem;
+}
+
+#title {
+  margin-bottom: 5rem;
+}
+
+h1 {
+  margin: 0 0 0 3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 3rem;
+  color: #b69f6d;
+}
+
+.startPageText {
+  padding: 1.5rem 3rem 0.5rem 3rem;
+}
+
+h2 {
+  margin: 0 0 0 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #b69f6d;
+}
+
+.product .chSpecial:hover {
+  color: #b61560;
+}
+
+.heading .text {
+  margin-bottom: 80px;
+}
+.heading .strtImage {
+  height: 400px;
+  width: 590px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.readMore {
+  text-decoration: none;
+  color: #333;
+}
+
+.readMore:hover {
+  color: #fff;
+}
+
+#product {
+  margin-bottom: 120px;
+}
+
+.productImage {
+  height: 500px;
+  width: 320px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+#promotion {
+  margin-bottom: 5rem;
+}
+
+.promoImage {
+  height: 400px;
+  width: 590px;
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+#app {
+  margin-bottom: 120px;
+}
+
+.app.connect {
+  margin-bottom: 80px;
+}
+
+.appImage {
+  height: 400px;
+  width: 590px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.btnstartPage {
+  margin: 0.5rem 0 0 3rem;
+  border-color: #b69f6d;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.btnProduct {
+  margin: 0;
+}
+
+.btnstartPage:hover {
+  background-color: #b69f6d;
+}
+
+#productItem {
+  margin-bottom: 80px;
+}
+
+.cardStyle {
+  margin: 20px auto;
+  width: 14rem;
+}
+
+#companyPage {
+  margin: 0px 60px;
+}
+
+.companyPageText {
+  padding: 1.5rem 3rem 0.5rem 3rem;
+}
+
+.companyImage {
+  height: 400px;
+  width: 590px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.companySection {
+  margin-bottom: 80px;
+}
+
+.employeCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.employeCard .cardEmploye {
+  min-height: 260px;
+  width: 240px;
+  background-color: #b61560;
+  border: 1px solid #111;
+  box-shadow: 5px 10px 18px 10px #888;
+  border-radius: 10px;
+}
+.employeCard .cardEmploye:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.reviewContent {
+  margin: 20px 40px 60px;
+}
+.reviewContent p {
+  padding: 2rem 3rem;
+}
+
+.reviewPage {
+  margin-bottom: 100px;
+}
+
+.contact {
+  margin-bottom: 5rem;
+}
+.contact h2 {
+  font-size: 40px;
+}
+.contact p {
+  padding: 0 3rem 0.5rem 3rem;
+  font-size: 26px;
+}
+.contact .companyImage {
+  max-width: 100%;
+  height: 500px;
+}
+.contact .form {
+  display: block;
+  width: 520px;
+  max-width: 100%;
+  margin: 16px 0;
+  padding: 10px 10px;
+  border: 1px solid #b69f6d;
+  border-radius: 5px;
+}
+.contact .formMh2 {
+  margin-bottom: 20px;
+}
+.contact .formMp {
+  font-size: 16px;
+}
+
+.catchPhrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.catchPhrase p {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: oblique;
+  color: #b69f6d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
